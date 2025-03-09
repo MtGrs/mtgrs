@@ -1,4 +1,4 @@
-# Progetto MES & Automazione Industriale
+# Progetto #MES & Automazione Industriale
 
 ## Descrizione
 Questo repository contiene soluzioni e script per lo sviluppo di software orientato al MES (Manufacturing Execution System) e all'automazione industriale. Il progetto è pensato per ottimizzare processi produttivi, garantire tracciabilità e integrare sistemi eterogenei in ambito industriale.
