@@ -14,14 +14,18 @@ Questo repository contiene soluzioni e script per lo sviluppo di software orient
 - **Interfacce:** Integrazione con ERP e IoT Gateway.
 - **Protocolli di comunicazione:** OPC UA, Modbus, MQTT.
 
-### Esempio di architettura:
+### Esempio — Architettura tradizionale
+- **Descrizione:** Questo modello rappresenta un'architettura tradizionale di automazione industriale.<br/>
 ERP ↔ MES ↔ SCADA ↔ PLC ↔ Sensori
 
-### Esempio - Architettura con robotica integrata
-- **Descrizione:** I dati raccolti dai sensori e dalle macchine vengono inviati a un gateway IoT, trasmessi al cloud per analisi avanzate e utilizzati per migliorare la gestione del processo produttivo tramite manutenzione predittiva.<br/><br/>
+### Esempio — Architettura con robotica integrata
+- **Descrizione:** I dati raccolti dai sensori e dalle macchine vengono inviati a un gateway IoT, trasmessi al cloud per analisi avanzate e utilizzati per migliorare la gestione del processo produttivo tramite manutenzione predittiva.<br/>
+In questa architettura avanzata, vengono integrati robot industriali per automatizzare attività specifiche.<br/>
+Il ***robot*** opera in modo autonomo o assistito, ma sempre coordinato tramite SCADA e MES per garantire coerenza con gli ordini produttivi emessi da ERP.<br/>
+**Scopo**: Migliorare la flessibilità produttiva, integrare macchine autonome e ridurre le inefficienze.<br/><br/>
 ERP ↔ MES ↔ SCADA ↔ Robot ↔ PLC ↔ Linea Produttiva
 
-### Esempio - Integrazione con sistemi di visione artificiale
+### Esempio — Integrazione con sistemi di visione artificiale
 - **Descrizione:** Il MES gestisce diverse linee di produzione con macchine di tipologie differenti (CNC, linee di assemblaggio, ecc.), coordinate da sistemi SCADA individuali.<br/><br/>
 ERP ↔ MES ↔ SCADA ↔ PLC ↔ Sensori + Sistemi di Visione ↔ Macchine
 
